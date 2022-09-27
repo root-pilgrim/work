@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="HelloWorld" package="com.sample.helloworld" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="HelloWorld" />
+
+	<window background = "#FFFFFF" />
+	<window width="800" hight="600" unless="mobile" />
+	<window orientation="landscape" vsynk="false" antialisaing="0" if="cpp"/>
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+
+</project>
